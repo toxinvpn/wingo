@@ -92,8 +92,8 @@
         }
       },
       "mux": {
-        "enabled": false,
-        "concurrency": -1
+        "enabled": true,
+        "concurrency": null
       }
     },
     {
