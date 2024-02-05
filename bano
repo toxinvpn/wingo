@@ -51,7 +51,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "zula.ir",
+            "address": "japan.com",
             "port": 2087,
             "users": [
               {
@@ -71,7 +71,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "winGoO.toXIn.Website",
+          "serverName": "wINGoO.tOxin.wEbSItE",
           "alpn": [
             "h2",
             "http/1.1"
@@ -82,7 +82,7 @@
         "wsSettings": {
           "path": "/toxin",
           "headers": {
-            "Host": "winGoO.toXIn.Website"
+            "Host": "wINGoO.tOxin.wEbSItE"
           }
         },
         "sockopt": {
