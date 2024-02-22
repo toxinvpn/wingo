@@ -67,11 +67,11 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "WIngoO.TOXIiNLovE.ONLinE",
+          "serverName": "WIngOO.tOXiiNLOve.onlINE",
           "alpn": [
             "h2",
             "http/1.1"
@@ -79,9 +79,11 @@
           "fingerprint": "chrome",
           "show": false
         },
-        "grpcSettings": {
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "WIngOO.tOXiiNLOve.onlINE"
+          }
         },
         "sockopt": {
           "dialerProxy": "fragment",
@@ -104,7 +106,7 @@
         "domainStrategy": "AsIs",
         "fragment": {
           "packets": "tlshello",
-          "length": "100-150",
+          "length": "50-100",
           "interval": "10-20"
         }
       },
